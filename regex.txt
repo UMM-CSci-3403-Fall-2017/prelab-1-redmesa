@@ -13,6 +13,6 @@ Regex 1
 
 Regex 2
 
-((\w+ \w+)$)|(/w+(?:\.))+
+((\w+ \w+)$)|((\w+(?:\.))+)
 // Captures everything that is next to a . for exampl /w./w./w. or /w. or /w./w.
-// Or captures the two words at the end of a line.
+// Or captures the two words at the end of a line. The ((\w+ \w+)$) works correcly in Rubular, but not RegExr.
